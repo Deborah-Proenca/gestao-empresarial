@@ -28,7 +28,7 @@ public class Empresa {
     private Integer quantidadeFuncionario;
 
     @Column
-    private Boolean situacao;
+    private Boolean situacao=true;
 
 
     @OneToMany(mappedBy = "empresa")
